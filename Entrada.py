@@ -5,7 +5,7 @@ import plotly.express as px
 
 st.header('Carros Vendidos na Europa')
 
-df = pd.read_csv('CSVs/carros_europa_combinado.csv')
+df = pd.read_csv('carros_europa_combinado.csv')
 
 
 # filtros = df.columns.difference(["Preço (€)", "Quilometragem (km)"]).tolist()
