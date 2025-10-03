@@ -4,7 +4,8 @@ import plotly.express as px
 
 
 st.header('Carros Vendidos em Portugal')
-st.image("https://flagcdn.com/w320/pt.png", width=150)
+st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Portugal_%28official%29.svg/2560px-Flag_of_Portugal_%28official%29.svg.png", width=150)
+
 
 
 df = pd.read_csv('carros_europa_combinado.csv')
