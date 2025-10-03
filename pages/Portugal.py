@@ -7,7 +7,7 @@ st.header('Carros Vendidos em Portugal')
 st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Portugal_%28official%29.svg/2560px-Flag_of_Portugal_%28official%29.svg.png", width=150)
 
 
-df = pd.read_csv('CSVs/carros_europa_combinado.csv')
+df = pd.read_csv('carros_europa_combinado.csv')
 
 df_espanha = df[df['País'] == 'Portugal']
 
