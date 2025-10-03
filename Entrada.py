@@ -15,8 +15,7 @@ filtros = [col for col in df.columns if col not in [
 df_filtrado = df.copy()
 
 for coluna in filtros:
-    opcoes = ['-- Selecione um valor --'] + \
-        sorted(df_filtrado[coluna].unique().tolist())
+    opcoes = ['-- Selecione um valor --'] + sorted(df_filtrado[coluna].unique().tolist())
     escolha = st.selectbox(f"Escolha {coluna}", opcoes)
 
     if escolha != '-- Selecione um valor --':
