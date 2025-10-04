@@ -19,7 +19,7 @@ with st.expander('Tabela Completa de Portugal'):
 
 df_filtrado = df_espanha.copy()
 
-filtro = [x for x in df_espanha.columns if x not in ['']]
+filtro = [x for x in df_espanha.columns if x not in ['País']]
 
 for x in filtro:
     opcoes = ['---Selecionar---'] + sorted(df_filtrado[x].unique().tolist())
