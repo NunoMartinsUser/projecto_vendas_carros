@@ -12,7 +12,7 @@ df = pd.read_csv('carros_europa_combinado.csv')
 
 df_espanha = df[df['País'] == 'Portugal']
 
-st.subheader('🚧 Página em cosntrução 🚧')
+st.subheader('🚧Página em cosntrução🚧')
 with st.expander('Tabela Completa de Portugal'):
 
     st.dataframe(df_espanha)
