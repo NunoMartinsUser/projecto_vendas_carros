@@ -10,7 +10,7 @@ df = pd.read_csv('venda_carros.csv')
 
 # filtros = df.columns.difference(["Preço (€)", "Quilometragem (km)"]).tolist()
 filtros = [col for col in df.columns if col not in [
-    'País', "Preço (€)", "Quilometragem (km)"]]
+    'País', "Preço (€)"]]
 
 df_filtrado = df.copy()
 
