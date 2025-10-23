@@ -29,7 +29,7 @@ if not df_filtrado.equals(df):
         'País').size().reset_index(name='Número de Carros'))
 
     fig1 = px.bar(df_grouped, x='País', y='Número de Carros', color='País',
-                  title='Número de carros vendidos por país de acordo com os filtos selecionados')
+                  title='Número de carros vendidos por país de acordo com os filtros selecionados')
 
     st.plotly_chart(fig1, use_container_width=True)
 
