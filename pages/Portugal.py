@@ -8,7 +8,7 @@ st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Port
 
 
 
-df = pd.read_csv('carros_europa_combinado.csv')
+df = pd.read_csv('venda_carros.csv')
 
 df_espanha = df[df['País'] == 'Portugal']
 
